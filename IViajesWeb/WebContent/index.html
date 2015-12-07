@@ -1,25 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
 <meta charset="ISO-8859-1">
 <title>IViajes</title>
-<style type="text/css">
-.divBody {
-	background-position: left top;
-	background-image: url(./resources/img/huanchacobackground.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 100%;
-	height:1000px;
-}
-</style>
+<link href="resources/css/bootstrap.css" rel="stylesheet"
+	type="text/css" />
+<link href="resources/css/web1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="resources/js/angular.min.js">
+</script>
+
 </head>
 <body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0">
-	<div class="divBody">
-		<table cellpadding="0" cellspacing="0" border="0" style="width: 80%; vertical-align: top;" align="center" >
-			<tr style="height: 20px;"></tr>
-			<tr><td><img src="./resources/img/logoiviajes.png"/></td><td></td></tr>
-		</table>
+	<div class="container">
+		<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+		<div class="row">
+			<div class="col-xs-12 col-md-8">Logo</div>
+			<div class="col-xs-6 col-md-4">redes sociales</div>
+		</div>
+
+		<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-2">Origen</div>
+					<div class="col-md-4">
+						<input class="form-control input-sm" type="text" id="idFrOrigen"
+							placeholder="Origen">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">Destino</div>
+					<div class="col-md-4">
+						<input class="form-control input-sm" type="text" id="idFrDestino"
+							placeholder="Destino">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<button type="button" class="btn btn-primary btn-xs">Buscar</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<table class="tabla_publicidad">
+					<tr>
+						<td align="center">publicidad</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<!-- Columns are always 50% wide, on mobile and desktop -->
+		<div class="row">
+			<div class="col-xs-6">.col-xs-6</div>
+			<div class="col-xs-6">.col-xs-6</div>
+		</div>
+	</div>
+
+	<div class="PIE_PAGINA ng-scope">
+		<span class="hidden-xs ng-binding">Inicio | Paquetes |
+			Programas | Boletos | Contactenos</span>
 	</div>
 </body>
 </html>
