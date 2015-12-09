@@ -25,3 +25,25 @@
 	border: 1px;
 	border-color: #f2f2f2;
 }
+.contorno_pagina{
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.175);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.175);
+}
+.etiqueta_form{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.titulo_form_busqueda{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	background-color: #286090;
+	text-align: center;
+}
+.tabla_estilo{
+	width: 100%;
+}
