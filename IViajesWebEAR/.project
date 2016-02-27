@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>IViajesWebEAR</name>
+	<name>PortalInnovaEAR</name>
 	<comment></comment>
 	<projects>
-		<project>IViajesWeb</project>
+		<project>PortalInnova</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
