@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="PortalInnova">
 <head>
 <meta charset="ISO-8859-1">
 <title>Portal Innova Viajes</title>
@@ -12,15 +12,17 @@
 </script>
 <script type="text/javascript" src="resources/js/bootstrap.min.js">
 </script>
+<script type="text/javascript" src="resources/js/controladorweb.js">
+</script>
 </head>
-<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0">
+<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0" ng-controller="PortalInnova">
 	<div class="container-fluid contorno_pagina">
 		<div class="row">
 			<div class="col-lg-1"></div>
 			<div class="col-lg-4">
 				<img class="logoEstilo" src="resources/img/logoinnova3.png" />
 			</div>
-			<div class="col-lg-7">redes sociales</div>
+			<div class="col-lg-7">{{portal.redesSociales}}</div>
 		</div>
 	</div>
 
