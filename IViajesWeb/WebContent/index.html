@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="PortalInnova">
 <head>
 <meta charset="ISO-8859-1">
 <title>Portal Innova Viajes</title>
@@ -10,58 +10,26 @@
 </script>
 <script type="text/javascript" src="resources/js/jquery-2.2.0.min.js">
 </script>
-<script type="text/javascript" src="resources/js/carousel.js">
+<script type="text/javascript" src="resources/js/bootstrap.min.js">
 </script>
-
-
+<script type="text/javascript" src="resources/js/controladorweb.js">
+</script>
 </head>
-<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0">
-	<div class="container contorno_pagina">
+<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0"
+	ng-controller="PortalInnovaCtrl" style="background-color: black;">
+	<div class="container">
 		<div class="row">
-			<div class="col-lg-4">
-				<img class="logoEstilo" src="resources/img/logoinnova3.png" />
-			</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="width: 100%; height: 500px;">
+				<tr>
+					<td align="center" valign="middle"><img src="resources/img/logogrande4.png" /></td>
+				</tr>
+			</table>
 		</div>
-
-		<div class="row">
-			<div style="width: 100%; text-align: center; height: 100px;">
-				<h3>Estamos trabajando para ofrecerte lo mejor</h3>
-			</div>
-		</div>
-
-		<div class="row">
-			<p>Muy pronto la informacion que ud necesita, totalmente
-				disponible para su seguridad y tranquilidad, estamos trabajando para
-				atenderlo de la mejor manera, con transparencia, humildad y rapidez</p>
-		</div>
-
-		<div class="row">
-			<p>
-				Puede seguirnos en facebook: <a
-					href="https://www.facebook.com/innovaviajesperu" target="blank">Innova
-					Viajes Peru</a>
-			</p>
-
-			<p>
-				Puede escribir nuestras ejecutivas: <a
-					href="mailto:paola.huarachi@innovaviajes.pe" target="blank">Paola
-					Huarachi P.</a> | <a href="mailto:paola.huarachi@innovaviajes.pe"
-					target="blank">Jessica Huarachi P.</a>
-			</p>
-			<p>Puede llamarnos :
-			<ul>
-				<li>332 3289</li>
-				<li>962 320 680</li>
-				<li>989 704 525</li>
-			</ul>
-			</p>
-		</div>
-
-		<div class="espacioFinal"></div>
 	</div>
 
 	<div class="PIE_PAGINA ng-scope">
-		<span class="hidden-xs ng-binding">Innova Viajes. Todos los derechos reservados</span>
+		<span class="hidden-xs ng-binding">Inicio | Paquetes |
+			Programas | Boletos | Contactenos | Blog </span>
 	</div>
 </body>
 </html>
